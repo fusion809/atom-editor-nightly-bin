@@ -6,7 +6,7 @@
 # Contributor: Danny Arnold <despair.blue at gmail dot com>
 
 pkgname=atom-editor-nightly-bin
-pkgver=20190729
+pkgver=20190809
 pkgrel=1
 pkgdesc="Hackable text editor built on Electron (official precompiled binary)"
 arch=('x86_64')
@@ -24,7 +24,7 @@ source=("atom-amd64-nighty-${pkgver}.deb::https://atom.io/download/deb?channel=n
          atom-python.patch
          startupwmclass.patch
 )
-sha512sums=('5a83c2c2ef8b9d7c8773ba61f82b514da76ad2e69989455cfd4ad76e4a939e021d16db6106dd9408e810d7239e6806e85ec293eb890818bb527f099ef107fe2a'
+sha512sums=('9edc3a6de962380714a7f37ecc88ae718c2f759c63720a5ef710c181c6a7344d36e455f7de297761176b4e671e6201291599731f22bd5cd8b73d8c79cf42d2d0'
             '4946629b14a57a57a3849fc3ff7f43779b55e1883383949212ccb6cb7bb4867edffb927f9d85cb2717b932c4f5162140d421e19df031edc7ea384ee93d93b2a4'
             'e30f7e4812898b80c079ba419e0cb37522c2e154ef7fdd6dda3da06dcbcaadc42016dd3d3b8caf206b842a2b9e3b954e537626d72337c56f05365a733627ce6c'
             '4d745796fa407944fcf7412c997b7c300cb53aa13818ee1241e92676b1f7215a67d1b3efd423699f1b13a520480c99bf9fa5ac615f007eff6b9a7b3d75a1246d'
